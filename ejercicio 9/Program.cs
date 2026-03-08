@@ -1,14 +1,16 @@
-﻿int suma(int a, int b)
+﻿void suma()
 {
-    return a + b;
+    Console.Write("ingrese operando 1: ");
+    int num1 = int.Parse(Console.ReadLine());
+    Console.WriteLine();
+    Console.Write("ingrese operando 2: ");
+    int num2 = int.Parse(Console.ReadLine());
+    Console.WriteLine();
+
+    Console.WriteLine($"el resultado de la suma es: {num1 + num2}");
 }
 
-Console.Write("ingrese operando 1: ");
-int num1=int.Parse(Console.ReadLine());
-Console.WriteLine();
-Console.Write("ingrese operando 2: ");
-int num2=int.Parse(Console.ReadLine());
-Console.WriteLine();
-int res = suma(num1, num2);
-Console.WriteLine($"el resultado de la suma es: {res}")
-    ;
+suma();
+
+
+    
