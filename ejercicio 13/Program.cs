@@ -1,6 +1,6 @@
-﻿int Resta(int a, int b)
+﻿int Multiplicacion(int a, int b)
 {
-    return a - b;
+    return a * b;
 }
 
 Console.Write("ingrese operando 1: ");
@@ -11,6 +11,6 @@ Console.Write("ingrese operando 1: ");
 int num2 = int.Parse(Console.ReadLine());
 Console.WriteLine();
 
-int res = suma(num1, num2);
+int res = Multiplicacion(num1, num2);
 
-Console.WriteLine($"el resultado de la resta es: {res}");
+Console.WriteLine($"el resultado de la multiplicacion es: {res}");

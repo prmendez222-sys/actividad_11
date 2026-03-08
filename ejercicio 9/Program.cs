@@ -1,4 +1,4 @@
-﻿void suma()
+﻿void Suma()
 {
     Console.Write("ingrese operando 1: ");
     int num1 = int.Parse(Console.ReadLine());
