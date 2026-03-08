@@ -1,4 +1,4 @@
-﻿int MayorMenor(int a, int b)
+﻿int Mayor(int a, int b)
 {
     if (a>b) 
     {
@@ -17,6 +17,6 @@ Console.Write("ingrese el segundo numero: ");
 int num2 = int.Parse(Console.ReadLine());
 Console.WriteLine();
 
-int mayor = MayorMenor(num1,num2);
+int mayor = Mayor(num1,num2);
 
 Console.WriteLine($"el numero mayor es: {mayor}");
