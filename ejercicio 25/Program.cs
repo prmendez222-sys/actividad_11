@@ -33,5 +33,3 @@ else
     Console.WriteLine("el numero no es primo");
 }
 
-
-Console.WriteLine();
